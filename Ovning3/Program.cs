@@ -12,7 +12,7 @@ namespace Ovning3
         {
             Console.Write("Är MFF Sveriges bästa lag? ");
             string answer = Console.ReadLine();
-            if (answer = "j" || answer = "J")
+            if (answer == "j" || answer == "J")
                 Console.WriteLine("Helt rätt");
 
             Console.Write("Ange temperaturen i Svedala: ");
