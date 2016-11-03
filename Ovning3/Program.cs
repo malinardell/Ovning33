@@ -12,7 +12,7 @@ namespace Ovning3
         {
             Console.Write("Är MFF Sveriges bästa lag? ");
             string answer = Console.ReadLine();
-            if (answer = "j" || answer = "J")
+            if (answer == "j" || answer == "J")
                 Console.WriteLine("Helt rätt");
 
             Console.Write("Ange temperaturen i Svedala: ");
@@ -43,8 +43,8 @@ namespace Ovning3
             else
                 Console.WriteLine("Det är varmast i visby och medeltemperaturen är: " + midTemperature);
 
-            int var = 10;
-            if (var = 10)
+            int variabel = 10;
+            if (variabel == 10)
                 Console.WriteLine("Den är 10");
 
 
